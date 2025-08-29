@@ -2,3 +2,21 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+  background-color: black;
+  color: lime;
+}
+
+.navbar {
+  background-color: rgb(32, 32, 32);
+  color: rgb(0, 119, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__links {
+  list-style: none;
+  display: flex;
+  gap: 1.3rem;
+}
